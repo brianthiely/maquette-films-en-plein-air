@@ -1,3 +1,16 @@
 .bg-granny {
-    background-color: #5E6564;
+	background-color: #5e6564;
 }
+.bg-cover {
+	background-image: url(./images/festival_films_plein_air-min.jpg);
+	background-size: cover;
+	background-position: center;
+    min-height: fit-content;
+}
+
+.p-5em {
+    padding: 5em;
+}
+
+
+

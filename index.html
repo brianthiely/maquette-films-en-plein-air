@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,6 +11,16 @@
 			rel="stylesheet"
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Six+Caps&display=swap"
+			rel="stylesheet"
 		/>
 	</head>
 	<body>
@@ -41,7 +51,7 @@
 						class="collapse navbar-collapse justify-content-sm-center"
 						id="navbarNav"
 					>
-						<ul class="navbar-nav">
+						<ul class="navbar-nav slab">
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="#"
 									>Accueil</a
@@ -65,92 +75,98 @@
 			<section>
 				<div class="text-center bg-cover text-white">
 					<div class="bg-dark bg-opacity-75 p-5em">
-						<h1 class="display-5 fw-bold">Festival Films Plein Air</h1>
+						<h1 class="display-2 fw-bold caps">Festival Films Plein Air</h1>
 						<div class="col-lg-6 mx-auto">
-							<p class="lead mb-4">
+							<p class="lead mb-4 slab">
 								Projection gratuite de films d'auteur au parc Monceau
 							</p>
-							<button type="button" class="btn btn-danger btn-lg">
+							<button type="button" class="btn btn-danger btn-lg slab">
 								Programmation
 							</button>
 						</div>
 					</div>
 				</div>
 			</section>
+
 			<section>
-				<h2></h2>
-				<h3></h3>
-				<div>
-					<div>
-						<!-- <img src="" alt="" /> -->
+				<h2 class="text-center mt-5 tc-title display-5 caps">
+					Films à l'affiche
+				</h2>
+				<p class="lead slab text-center mb-5">
+					Inscrivez-vous à la séance de votre choix
+				</p>
+
+				<div
+					class="d-flex flex-column align-items-center flex-lg-row justify-content-lg-around"
+				>
+					<div class="card mb-5" style="width: 18rem">
+						<img
+							src="/images/films/faute_amour.jpg"
+							class="card-img-top"
+							alt="Affiche du film 'Faute d/'amour'"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Faute d'amour</h5>
+							<p class="card-text">
+								Drame très cruel sur le manque d'amour, cet impitoyable fait d'arme russe est le cinquième film du réalisateur Andreï Zviaguintsev.
+							</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item fw-bold text-center">Vendredi 5 Aôut 2022</li>
+							<li class="list-group-item"><b>Séance:</b> 20h00</li>
+							<li class="list-group-item"><b>Genre:</b> Drame</li>
+						</ul>
+						<div class="card-body">
+							<a href="#" class="card-link"> Voir la programmation</a> </br>
+							<a href="#" class="card-link">Réserver la séance</a>
+						</div>
 					</div>
-					<div>
-						<h4></h4>
-						<p></p>
-						<button
-							type="button"
-							onclick="location.href='program.html'"
-						></button>
+
+					<div class="card mb-5" style="width: 18rem">
+						<img
+							src="/images/films/Le_Labyrinthe_du_silence.jpg"
+							class="card-img-top"
+							alt="Affiche du film 'Faute d/'amour'"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Le Labyrinthe du silence</h5>
+							<p class="card-text">
+								À Francfort, Allemagne, en 1958, un procureur fait tout pour ouvrir un procès lorsqu'il découvre des documents qui mettent en cause d'anciens SS.
+							</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item fw-bold text-center">Samedi 6 Aôut 2022</li>
+							<li class="list-group-item"><b>Séance:</b> 20h00</li>
+							<li class="list-group-item"><b>Genre:</b> Historique</li>
+						</ul>
+						<div class="card-body">
+							<a href="#" class="card-link"> Voir la programmation</a> </br>
+							<a href="#" class="card-link">Réserver la séance</a>
+						</div>
 					</div>
-				</div>
-				<div>
-					<div>
-						<!-- <img src="" alt="" /> -->
-					</div>
-					<div>
-						<h4></h4>
-						<p></p>
-						<button
-							type="button"
-							onclick="location.href='program.html'"
-						></button>
-					</div>
-				</div>
-				<div>
-					<div>
-						<!-- <img src="" alt="" /> -->
-					</div>
-					<div>
-						<h4></h4>
-						<p></p>
-						<button
-							type="button"
-							onclick="location.href='program.html'"
-						></button>
-					</div>
-				</div>
-			</section>
-			<section>
-				<h2></h2>
-				<h3></h3>
-				<div>
-					<div>
-						<!-- <img src="" alt="" /> -->
-					</div>
-					<div>
-						<h4></h4>
-						<p></p>
-						<button type="button" onclick="location.href='news.html'"></button>
-					</div>
-				</div>
-				<div>
-					<div>
-						<!-- <img src="" alt="" /> -->
-					</div>
-					<div>
-						<h4></h4>
-						<p></p>
-						<button type="button" onclick="location.href='news.html'"></button>
-					</div>
-				</div>
-				<div>
-					<div>
-						<!-- <img src="" alt="" /> -->
-					</div>
-					<div>
-						<h4></h4>
-						<p></p>
-						<button type="button" onclick="location.href='news.html'"></button>
+
+					<div class="card mb-5" style="width: 18rem">
+						<img
+							src="/images/films/Waves.jpg"
+							class="card-img-top"
+							alt="Affiche du film 'Faute d/'amour'"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Waves</h5>
+							<p class="card-text">
+								Waves est une saga qui suit les destinées d'enfants au père doté
+								d'un caractère pas simple, réalisée par Trey Edward Shults.
+							</p>
+						</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item fw-bold text-center">Dimanche 7 Aôut 2022</li>
+							<li class="list-group-item"><b>Séance:</b> 20h00</li>
+							<li class="list-group-item"><b>Genre:</b> Drame</li>
+						</ul>
+						<div class="card-body">
+							<a href="#" class="card-link"> Voir la programmation</a> </br>
+							<a href="#" class="card-link">Réserver la séance</a>
+						</div>
 					</div>
 				</div>
 			</section>

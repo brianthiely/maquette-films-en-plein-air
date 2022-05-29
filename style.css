@@ -12,5 +12,21 @@
     padding: 5em;
 }
 
+.tc-title {
+    color: #E43A44;
+}
 
+h1 {
+    font-family: 'Six Caps', sans-serif;
+    letter-spacing: 0.4rem;
+}
+
+.caps {
+    font-family: 'Six Caps', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.slab {
+    font-family: 'Josefin Slab', serif;
+}
 

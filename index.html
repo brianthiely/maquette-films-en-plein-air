@@ -1,190 +1,217 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-			crossorigin="anonymous"
-		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Six+Caps&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
-	<body>
-		<header>
-			<nav class="navbar navbar-expand-md navbar-dark bg-granny">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#">
-						<img
-							src="./images/logo_films_plein_air.png"
-							alt="logo festival Films Plein Air"
-							width=""
-							height="40"
-							class="position-absolute top-0 mt-2"
-						/>
-					</a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNav"
-						aria-controls="navbarNav"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div
-						class="collapse navbar-collapse justify-content-sm-center"
-						id="navbarNav"
-					>
-						<ul class="navbar-nav slab">
-							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#"
-									>Accueil</a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Programme</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Actualités</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link">À propos</a>
-							</li>
-						</ul>
-					</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Six+Caps&display=swap"
+		rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-granny">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo_films_plein_air.png" alt="logo festival Films Plein Air" width=""
+						height="40" class="position-absolute top-0 mt-2" />
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-sm-center" id="navbarNav">
+					<ul class="navbar-nav slab">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Accueil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Programme</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Actualités</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link">À propos</a>
+						</li>
+					</ul>
 				</div>
-			</nav>
-		</header>
-		<main>
-			<section>
-				<div class="text-center bg-cover text-white">
-					<div class="bg-dark bg-opacity-75 p-5em">
-						<h1 class="display-2 fw-bold caps">Festival Films Plein Air</h1>
-						<div class="col-lg-6 mx-auto">
-							<p class="lead mb-4 slab">
-								Projection gratuite de films d'auteur au parc Monceau
-							</p>
-							<button type="button" class="btn btn-danger btn-lg slab">
-								Programmation
-							</button>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<h2 class="text-center mt-5 tc-title display-5 caps">
-					Films à l'affiche
-				</h2>
-				<p class="lead slab text-center mb-5">
-					Inscrivez-vous à la séance de votre choix
-				</p>
-
-				<div
-					class="d-flex flex-column align-items-center flex-lg-row justify-content-lg-around"
-				>
-					<div class="card mb-5" style="width: 18rem">
-						<img
-							src="/images/films/faute_amour.jpg"
-							class="card-img-top"
-							alt="Affiche du film 'Faute d/'amour'"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Faute d'amour</h5>
-							<p class="card-text">
-								Drame très cruel sur le manque d'amour, cet impitoyable fait d'arme russe est le cinquième film du réalisateur Andreï Zviaguintsev.
-							</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item fw-bold text-center">Vendredi 5 Aôut 2022</li>
-							<li class="list-group-item"><b>Séance:</b> 20h00</li>
-							<li class="list-group-item"><b>Genre:</b> Drame</li>
-						</ul>
-						<div class="card-body">
-							<a href="#" class="card-link"> Voir la programmation</a> </br>
-							<a href="#" class="card-link">Réserver la séance</a>
-						</div>
-					</div>
-
-					<div class="card mb-5" style="width: 18rem">
-						<img
-							src="/images/films/Le_Labyrinthe_du_silence.jpg"
-							class="card-img-top"
-							alt="Affiche du film 'Faute d/'amour'"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Le Labyrinthe du silence</h5>
-							<p class="card-text">
-								À Francfort, Allemagne, en 1958, un procureur fait tout pour ouvrir un procès lorsqu'il découvre des documents qui mettent en cause d'anciens SS.
-							</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item fw-bold text-center">Samedi 6 Aôut 2022</li>
-							<li class="list-group-item"><b>Séance:</b> 20h00</li>
-							<li class="list-group-item"><b>Genre:</b> Historique</li>
-						</ul>
-						<div class="card-body">
-							<a href="#" class="card-link"> Voir la programmation</a> </br>
-							<a href="#" class="card-link">Réserver la séance</a>
-						</div>
-					</div>
-
-					<div class="card mb-5" style="width: 18rem">
-						<img
-							src="/images/films/Waves.jpg"
-							class="card-img-top"
-							alt="Affiche du film 'Faute d/'amour'"
-						/>
-						<div class="card-body">
-							<h5 class="card-title">Waves</h5>
-							<p class="card-text">
-								Waves est une saga qui suit les destinées d'enfants au père doté
-								d'un caractère pas simple, réalisée par Trey Edward Shults.
-							</p>
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item fw-bold text-center">Dimanche 7 Aôut 2022</li>
-							<li class="list-group-item"><b>Séance:</b> 20h00</li>
-							<li class="list-group-item"><b>Genre:</b> Drame</li>
-						</ul>
-						<div class="card-body">
-							<a href="#" class="card-link"> Voir la programmation</a> </br>
-							<a href="#" class="card-link">Réserver la séance</a>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer>
-			<div>
-				<h6></h6>
-				<a href=""><p></p></a>
-				<a href=""><p></p></a>
-				<a href=""><p></p></a>
-				<a href=""><p></p></a>
 			</div>
-		</footer>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<div class="text-center bg-cover text-white">
+				<div class="bg-dark bg-opacity-75 p-5em">
+					<h1 class="display-2 fw-bold caps">Festival Films Plein Air</h1>
+					<div class="col-lg-6 mx-auto">
+						<p class="lead mb-4 slab">
+							Projection gratuite de films d'auteur au parc Monceau
+						</p>
+						<button type="button" class="btn btn-danger btn-lg slab">
+							Programmation
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-			crossorigin="anonymous"
-		></script>
-	</body>
+		<section>
+			<h2 class="text-center mt-5 tc-title display-5 caps">
+				Films à l'affiche
+			</h2>
+			<p class="lead slab text-center mb-5">
+				Inscrivez-vous à la séance de votre choix
+			</p>
+
+			<div class="d-flex flex-column align-items-center flex-lg-row justify-content-lg-around">
+				<div class="card mb-5" style="width: 18rem">
+					<img src="/images/films/faute_amour.jpg" class="card-img-top"
+						alt="Affiche du film 'Faute d/'amour'" />
+					<div class="card-body">
+						<h5 class="card-title">Faute d'amour</h5>
+						<p class="card-text">
+							Drame très cruel sur le manque d'amour, cet impitoyable fait d'arme russe est le cinquième
+							film du réalisateur Andreï Zviaguintsev.
+						</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item fw-bold text-center">Vendredi 5 Aôut 2022</li>
+						<li class="list-group-item"><b>Séance:</b> 20h00</li>
+						<li class="list-group-item"><b>Genre:</b> Drame</li>
+					</ul>
+					<div class="card-body">
+						<a href="#" class="card-link"> Voir la programmation</a> </br>
+						<a href="#" class="card-link">Réserver la séance</a>
+					</div>
+				</div>
+
+				<div class="card mb-5" style="width: 18rem">
+					<img src="/images/films/Le_Labyrinthe_du_silence.jpg" class="card-img-top"
+						alt="Affiche du film 'Faute d/'amour'" />
+					<div class="card-body">
+						<h5 class="card-title">Le Labyrinthe du silence</h5>
+						<p class="card-text">
+							En Allemagne, un procureur fait tout pour ouvrir un procès lorsqu'il
+							découvre des documents qui mettent en cause d'anciens SS.
+						</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item fw-bold text-center">Samedi 6 Aôut 2022</li>
+						<li class="list-group-item"><b>Séance:</b> 20h00</li>
+						<li class="list-group-item"><b>Genre:</b> Historique</li>
+					</ul>
+					<div class="card-body">
+						<a href="#" class="card-link"> Voir la programmation</a> </br>
+						<a href="#" class="card-link">Réserver la séance</a>
+					</div>
+				</div>
+
+				<div class="card mb-5" style="width: 18rem">
+					<img src="/images/films/Waves.jpg" class="card-img-top" alt="Affiche du film 'Faute d/'amour'" />
+					<div class="card-body">
+						<h5 class="card-title">Waves</h5>
+						<p class="card-text">
+							Waves est une saga qui suit les destinées d'enfants au père doté
+							d'un caractère pas simple, réalisée par Trey Edward Shults.
+						</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item fw-bold text-center">Dimanche 7 Aôut 2022</li>
+						<li class="list-group-item"><b>Séance:</b> 20h00</li>
+						<li class="list-group-item"><b>Genre:</b> Drame</li>
+					</ul>
+					<div class="card-body">
+						<a href="#" class="card-link"> Voir la programmation</a> </br>
+						<a href="#" class="card-link">Réserver la séance</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="text-center mt-5 tc-title display-5 caps">
+				Nos Actualités
+			</h2>
+			<p class="lead slab text-center mb-5">
+				Découvrir l'association Films en Plein Air
+			</p>
+
+			<div class="d-flex flex-column align-items-center flex-lg-row justify-content-lg-around">
+				<div class="card mb-5" style="width: 18rem">
+					<img src="/images/actualiés/affiche_actus_concessionaire.png" class="card-img-top"
+						alt="Affiche du film 'Faute d/'amour'" />
+					<div class="card-body">
+						<h5 class="card-title">Appel aux concessionnaires</h5>
+						<p class="card-text">
+							Nous cherchons des participants pour les stands  de nourriture et de boissons pour le festival.
+						</p>
+					</div>
+					
+					<div class="card-body">
+						<a href="#" class="card-link"> Nous contacter</a> </br>
+					</div>
+				</div>
+
+				<div class="card mb-5" style="width: 18rem">
+					<img src="/images/actualiés/festival halloween.png" class="card-img-top"
+						alt="Affiche du film 'Faute d/'amour'" />
+					<div class="card-body">
+						<h5 class="card-title">Festival d'Halloween</h5>
+						<p class="card-text">
+							On prépare déjà Halloween, suggérez-nous les films que vous aimeriez voir à l'affiche.
+						</p>
+					</div>
+					<div class="card-body">
+						<a href="#" class="card-link"> Voir plus</a> </br>
+					</div>
+				</div>
+
+				<div class="card mb-5" style="width: 18rem">
+					<img src="/images/actualiés/affiche_actu_bar.png" class="card-img-top" alt="Affiche du film 'Faute d/'amour'" />
+					<div class="card-body">
+						<h5 class="card-title">1 verre 1 arbre</h5>
+						<p class="card-text">
+							Parce qu'on regarde des films en plein nature pour chaque conso acheté un arbre sera planté.
+						</p>
+					</div>
+					<div class="card-body">
+						<a href="#" class="card-link"> Voir plus</a> </br>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer>
+		<div>
+			<h6></h6>
+			<a href="">
+				<p></p>
+			</a>
+			<a href="">
+				<p></p>
+			</a>
+			<a href="">
+				<p></p>
+			</a>
+			<a href="">
+				<p></p>
+			</a>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

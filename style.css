@@ -5,32 +5,29 @@
 	background-image: url(./images/festival_films_plein_air-min.jpg);
 	background-size: cover;
 	background-position: center;
-    min-height: fit-content;
+	min-height: fit-content;
 }
 
 .bg-cover-pop {
 	background-image: url(./images/pop_corn.jpg);
 }
 
-
 .p-5em {
-    padding: 5em;
+	padding: 5em;
 }
 
 .tc-title {
-    color: #E43A44;
+	color: #e43a44;
 }
 
 .tc-subtitle {
-    color: #A8D9DA;
+	color: #a8d9da;
 }
 
-.caps {
-    font-family: 'Six Caps', sans-serif;
-    letter-spacing: 0.1rem;
+.f-h {
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
-.slab {
-    font-family: 'Josefin Slab', serif;
+.f-p {
+	font-family: 'Special Elite', cursive;
 }
-

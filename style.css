@@ -8,12 +8,21 @@
     min-height: fit-content;
 }
 
+.bg-cover-pop {
+	background-image: url(./images/pop_corn.jpg);
+}
+
+
 .p-5em {
     padding: 5em;
 }
 
 .tc-title {
     color: #E43A44;
+}
+
+.tc-subtitle {
+    color: #A8D9DA;
 }
 
 .caps {
